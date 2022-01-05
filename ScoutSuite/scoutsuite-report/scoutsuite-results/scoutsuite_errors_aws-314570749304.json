@@ -1,0 +1,16 @@
+[
+    {
+        "additional_details": {
+            "callback": "get_lb_attack_surface",
+            "callback arguments": {},
+            "current path": "['services', 'elbv2', 'regions', 'us-east-1', 'vpcs', 'vpc-a6f8f8dc', 'lbs']",
+            "key": "lbs",
+            "path": "[]",
+            "value": "6d5e4c9508686fff636a3f4e0d56c608d76b0ec3"
+        },
+        "exception": "'DNSName'",
+        "file": "provider.py",
+        "line": 372,
+        "traceback": "Traceback (most recent call last):\n  File \"/Users/omrits/code/ScoutSuite/ScoutSuite/providers/base/provider.py\", line 372, in _new_go_to_and_do\n    callback(current_config[key][value],\n  File \"/Users/omrits/code/ScoutSuite/ScoutSuite/providers/aws/provider.py\", line 688, in get_lb_attack_surface\n    public_dns = current_config['DNSName']\nKeyError: 'DNSName'\n"
+    }
+]
